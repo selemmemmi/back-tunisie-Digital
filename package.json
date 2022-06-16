@@ -1,0 +1,35 @@
+{
+  "name": "ws-mongoose",
+  "version": "1.0.0",
+  "description": "mangoose contact list",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "back": "nodemon server",
+    "front": "cd client && npm start",
+    "dev": " concurrently  \"npm run front\" \"npm run back \" "
+  },
+  "keywords": [
+    "node",
+    "mongoose",
+    "express"
+  ],
+  "author": "salem",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2",
+    "react-redux": "^8.0.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.16"
+  }
+}
